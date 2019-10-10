@@ -14,7 +14,7 @@
 	* recycleview
 	* slide delete
 
-## Known İssue
+## Known Issue
 
 	* app crash when added photos button clicked!
 	* layout problem while adding a new crime on rotation
