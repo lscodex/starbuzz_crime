@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suç</string>
+    <string name="crime_title">Başlık</string>
+    <string name="c_ac_title">Başlık:</string>
+    <string name="c_ac_detail">Ayrıntı:</string>
+    <string name="c_ac_hint_edittext">Lütfen Başlık Girin</string>
+    <string name="c_ac_solved">Çözüldü</string>
+    <string name="date_picker_title">Suç Tarihi</string>
+    <string name="new_crime">Suç Ekle</string>
+    <string name="delete_crime">Suç Sil</string>
+    <string name="show_subtitle">Alt Yazı Göster</string>
+    <string name="hide_subtitle">Alt Yazı Gizli</string>
+    <string name="subtitle_format">%1$d suçlar</string>
+    <string name="choice_suspect">Şüpheli Seç</string>
+    <string name="send_crime_report">Suç Raporu Gönder</string>
+    <string name="send_report">Suç Raporu Yolla</string>
+</resources>

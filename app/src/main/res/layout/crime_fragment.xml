@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="11dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/crime_photo"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@color/colorPrimary"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:id="@+id/crime_camera_button"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_camera" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    style="?android:listSeparatorTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c_ac_title"
+                    android:textSize="10sp"/>
+
+                <EditText
+                    android:id="@+id/c_ac_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/c_ac_hint_edittext" />
+
+                <Button
+                    android:id="@+id/c_ac_buttondate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c_ac_detail"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/c_ac_checkk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/c_ac_solved" />
+
+        <Button
+            android:id="@+id/c_ac_choose_suspect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:text="@string/choice_suspect" />
+
+        <Button
+            android:id="@+id/c_ac_send_crime_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:text="@string/send_crime_report" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
