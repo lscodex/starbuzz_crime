@@ -25,6 +25,10 @@
 	* firebase data sharing
 	* location crime on maps
 	* marks a crime location on the map
+	
+## Snapshots
+ ![main page](screenshot/addnewcrime.png)
+ ![rotation page](screenshot/rotatemain.png)
 
 
 ## Contributing
